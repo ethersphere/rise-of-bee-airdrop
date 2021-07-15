@@ -19,6 +19,6 @@ npm ci
 npm start
 ```
 
-The result will be in [`./trusted_nodes.json`](./trusted_nodes.json) file.
+The result will be in `./generated_trusted_nodes.json` file.
 
 If you hit the API limit, you can also add your infura api key to line 5 in the [src/index.ts].

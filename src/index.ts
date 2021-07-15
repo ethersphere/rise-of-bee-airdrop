@@ -101,7 +101,7 @@ const main = async () => {
   const newTrustedNodes: string[] = Array.from(newTrustedNodesSet).sort();
 
   await fs.writeFileSync(
-    "trusted_nodes.json",
+    "generated_trusted_nodes.json",
     JSON.stringify(newTrustedNodes, null, 2)
   );
 };
