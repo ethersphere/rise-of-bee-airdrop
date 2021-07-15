@@ -1,0 +1,18 @@
+{
+  "name": "rise-of-bee-airdrop",
+  "version": "0.1.0",
+  "description": "Scripts for the Rise of Bee Airdrop",
+  "main": "build/index.js",
+  "dependencies": {
+    "@types/node": "^16.3.2",
+    "ethers": "^5.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
