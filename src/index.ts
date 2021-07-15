@@ -5,7 +5,7 @@ import { ERC20SimpleSwap__factory } from "./contracts/factories/ERC20SimpleSwap_
 import trustedNodes from "./initial_trusted_nodes.json";
 
 const INFURA_API_KEY = undefined;
-const START_BLOCK = 4230000;
+const START_BLOCK = 4283397;
 const END_BLOCK = 5130433;
 
 const provider = new ethers.providers.InfuraProvider("goerli", INFURA_API_KEY);
