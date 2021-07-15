@@ -5,11 +5,11 @@
 - [Swarm airdrop final details](#)
 
 ## Methodology
-159 initial trusted nodes were selected and the final set of trusted nodes are these nodes *and* all nodes that have received and cashed out at least one non-zero value cheque from the initial set of trusted nodes.
+159 initial trusted nodes were selected and the final set of trusted nodes are these nodes _and_ all nodes that have received and cashed out at least one non-zero value cheque from the initial set of trusted nodes.
 
 ## Trusted nodes
-- Find the initial set of trusted nodes [here](#)
-- Find the final set of trusted nodes [here](#)
+- Find the initial set of trusted nodes [here](./src/initial_trusted_nodes.json)
+- Find the final set of trusted nodes [here](./trusted_nodes.json)
 
 ## Validate for yourself
 Swarm values transparancy. You can validate the results by yourself by running
@@ -18,3 +18,7 @@ Swarm values transparancy. You can validate the results by yourself by running
 npm ci
 npm start
 ```
+
+The result will be in `./generated_trusted_nodes.json` file.
+
+If you hit the API limit, you can also add your infura api key to line 5 in the [src/index.ts].
