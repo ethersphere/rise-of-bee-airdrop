@@ -2,7 +2,7 @@ import { ethers, BigNumber } from "ethers";
 import fs from "fs";
 
 import { ERC20SimpleSwap__factory } from "./contracts/factories/ERC20SimpleSwap__factory";
-import trustedNodes from "./trusted_nodes.json";
+import trustedNodes from "./initial_trusted_nodes.json";
 
 const INFURA_API_KEY = undefined;
 const START_BLOCK = 4230000;
@@ -101,7 +101,7 @@ const main = async () => {
   const newTrustedNodes: string[] = Array.from(newTrustedNodesSet).sort();
 
   await fs.writeFileSync(
-    "extended_trusted_nodes.json",
+    "trusted_nodes.json",
     JSON.stringify(newTrustedNodes, null, 2)
   );
 };
