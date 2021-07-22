@@ -28,7 +28,7 @@ If you hit the API limit, you can also add your infura api key to line 5 in the 
 ## Airdrop balances
 
 ### Methodology
-The final airdrop reward has been calculated as follows: the awarded addresses are all beneficiaries who cashed out cheque from the trusted nodes between the blocks `4283397` and `5130433` including. The total gBZZ amount an address cashed from the trusted nodes has been summed and devided by the total gBZZ amount cashed from trusted nodes by all the addresses. This ratio then indicates how big portion of the 1 000 000 BZZ given awarded address will receive.
+The final airdrop reward has been calculated as follows: the awarded addresses are all beneficiaries who cashed out cheque from the trusted nodes between the blocks `4283397` and `5130433` inclusive. The total gBZZ amount an address cashed from the trusted nodes has been summed and divided by the total gBZZ amount cashed from trusted nodes by all the addresses. This ratio then indicates how big portion of the 1 000 000 BZZ given awarded address will receive.
 
 ### Data sets
 - Find the final set of addresses and the BZZ balances that they will be awarded [here](./airdrop_rewards.json).
