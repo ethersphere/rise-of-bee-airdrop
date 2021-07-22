@@ -39,4 +39,5 @@ The final airdrop reward has been calculated as follows: the awarded addresses a
 Due to the amount of participants, the airdrop was extended with an extra amount of 0.1 BZZ to each address that deployed a chequebook through an official chequebook factory and cashed out from any other chequebook deployed through an official chequebook factory.
 
 ### Data sets
-- All the addresses that appear in the [airdrop rewards] list will receive extra 0.1 BZZ
+- All the addresses that appear in the [airdrop rewards](./airdrop_rewards.json) list will receive extra 0.1 BZZ
+- Official chequbook factories: `0x73c412512E1cA0be3b89b77aB3466dA6A1B9d273`, `0xf0277caffea72734853b834afc9892461ea18474` [[source](https://github.com/ethersphere/bee/blob/6f74a2f4a3633223d45bb5b88d2dc231582f0e10/pkg/config/chain.go#L17)]
